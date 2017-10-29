@@ -40,6 +40,27 @@ header
 }
 
 
+nav li ul
+{
+	display: none;
+	position: absolute;
+	min-width: 100px;
+	background: #848484;
+
+}
+
+nav li:hover > ul
+{
+	display: block;
+}
+
+nav li ul li
+{
+position: relative;
+
+}
+
+
 nav
 {
 	background: #222222;
