@@ -16,7 +16,7 @@
 
 body
 {
-	background: #CEECF5;
+	background: #D8D8D8;
 	color: #000000;
 	font-family: "rubikbold", Verdana, Helvetica;
 	font size: 2em;
@@ -152,7 +152,7 @@ aside p
 footer
 {
 
-	height: 40px;
+	height: 80px;
 	background: #000000;
 	color: #ffffff;
 	clear: both;
@@ -161,8 +161,9 @@ footer
 footer p
 {
 	font-size: 15px;
-	font-family: rubikbold;
-	text-align: center;
-	line-height: 40px;
+	font-family: arial;
+	text-align:left;
+	line-height: 20px;
+
 
 }
