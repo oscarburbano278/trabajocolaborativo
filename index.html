@@ -27,6 +27,8 @@
       		<li><a href="paginas/lecturas1.html">Lecturas1</a></li>
       		<li><a href="paginas/lecturas1.html">Lecturas2</a></li>
       		<li><a href="paginas/lecturas1.html">Lecturas3</a></li>
+      		<li><a href="paginas/lecturas1.html">Lecturas4</a></li>
+      		<li><a href="paginas/lecturas1.html">Lecturas5</a></li>
       	</ul>
       </li>
 
@@ -40,7 +42,8 @@
       <li><a href="paginas/actividades.html">Actividades </a>
       		<ul>
       		<li><a href="paginas/actividades1.html">actividades1</a></li>
-      		<li><a href="paginas/actividades1.html">actividades1</a></li>
+      		<li><a href="paginas/actividades1.html">actividades2</a></li>
+      		<li><a href="paginas/actividades1.html">actividades3</a></li>
       		
       	</ul>
 
@@ -79,6 +82,20 @@
 	</p>
 <img src="imagenes/tecnologia.PNG" width="250" height="100" >
 
+<?php
+if (isset($_cookie[`contador´]))
+{
+	setcookie(`contador´, $_cookie[`contador´]+1, time(31536000));
+	echo"Numero de visitas: ". $_cookie[`contador´];
+}
+
+else 
+{
+	setcookie(`contador´,1, time(31536000);
+	echo "bienvenido por primera vez a nuestra pagina "
+}
+?>
+
 </aside>
 
 
@@ -90,6 +107,9 @@
 	<p>preuntas frecuentes</p>
 </footer>
 
+
+
 </div>
 </body>
 </html>
+
