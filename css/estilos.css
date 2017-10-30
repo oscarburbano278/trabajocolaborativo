@@ -40,25 +40,8 @@ header
 }
 
 
-nav li ul
-{
-	display: none;
-	position: absolute;
-	min-width: 100px;
-	background: #848484;
 
-}
 
-nav li:hover > ul
-{
-	display: block;
-}
-
-nav li ul li
-{
-position: relative;
-
-}
 
 
 nav
@@ -66,12 +49,21 @@ nav
 	background: #222222;
 	height: 60px;
 }
-
+nav ul{
+	list-style: none;
+	padding: 0;
+}
 nav li
 {
 	list-style: none;
 	display: inline-block;
 	padding: 20px 0px;
+	position: relative;
+	line-height: 3rem;
+
+}
+nav li ul{
+	position: absolute;
 }
 
 nav a
@@ -82,6 +74,7 @@ nav a
 	font-family: arial;
 	text-decoration: none;
 	padding: 20px;
+	transition: 4s;
 }
 
 
@@ -90,6 +83,37 @@ nav a:hover
 background: #cccccc;
 color: #000000;
 }
+
+nav ul ul{
+display: none;
+}
+nav li:hover ul{
+	display: block;
+}
+nav> ul{
+	background: #333;
+	display: table;
+	width: 100%
+}
+nav> ul >li{
+	float: left;
+}
+nav li li{
+	background: #CCC;
+	width: 200px
+	}
+	nav> ul > li> ul{
+		top:100%;
+	}
+	nav ul ul ul{
+		left: 100%
+		top: 0;
+	}
+
+
+
+
+
 
 
 
