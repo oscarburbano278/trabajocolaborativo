@@ -61,9 +61,45 @@
 <section id="contenidoMultimedia">
 
   <article class="articulos">
-    <h2> fases del desarrollo del software </h2>
+   
 
-    <P>aqui va el contenido de las actividades </P>
+
+      
+<form>
+<form class="contact_form" action="#" id="contact_form" runat="server">
+   <h2>ACTIVIDAD DE CONOCIMIENTOS</h2>
+   <p>
+       ETAPA DE LA FORMULACION DE UN PROYECTO DE PAGINA WEB:<br/ >
+       <input type="checkbox" name="planificacion" id="planificacion" /> <label for="planificacion">planificacion</label><br />
+       <input type="checkbox" name="analisis" id="analisis" /> <label for="analisis">analisis</label><br />
+       <input type="checkbox" name="cobrar anticipadamente" id="cobrar anticipadamente" /> <label for="cobrar anticipadamente">cobrar anticipadamente</label><br />
+       <input type="checkbox" name="discutir" id="discutir" /> <label for="discutir">discutir</label>
+   </p>
+</form>
+<form method="post" action="tratamiento.php">
+   <p>
+       Indica la etapa donde se describen las funciones, costoss y tiempó del proyecto:<br />
+       <input type="radio" name="etapa" value="analisis" id="analisis" /> <label for="analisis">analisis</label><br />
+       <input type="radio" name="etapa" value="ejecucion" id="ejecucion" /> <label for="ejecucion">ejecucion</label><br />
+       <input type="radio" name="etapa" value="planificacion" id="planificacion" /> <label for="planificacion">planificacion</label><br />
+       <input type="radio" name="etapa" value="evaluacion" id="evaluacion" /> <label for="evaluacion">evaluacion</label>
+   </p>
+</form>
+<form method="post" action="tratamiento.php">
+   <p>
+       Etapa donde se hace reconocimiento del problema y modelado de posible solucion:<br />
+       <input type="radio" name="etapa" value="diseño" id="diseño" /> <label for="diseño">diseño</label><br />
+       <input type="radio" name="etapa" value="implantacion" id="implantacion" /> <label for="implantacion">implantacion</label><br />
+       <input type="radio" name="etapa" value="ejecucion" id="ejecucion" /> <label for="ejecucion">ejecucion</label><br />
+       <input type="radio" name="etapa" value="analisis" id="analisis" /> <label for="analisis">analisis</label>
+   </p>
+</form>
+ <li>
+                    <button class="submit" type="submit">Enviar respuestas</button>
+                </li>
+                </form>
+
+
       
 
   </article>
